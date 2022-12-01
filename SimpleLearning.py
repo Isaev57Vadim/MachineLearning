@@ -1,5 +1,5 @@
 
-# y = x1 + 2*x2 + 3*x3
+# y = x1 + 4*x2 + 11*x3
 
 from random import randint
 from sklearn.linear_model import LinearRegression
@@ -14,7 +14,7 @@ for i in range(train_set_count):
     a = randint(0, train_set_limit)
     b = randint(0, train_set_limit)
     c = randint(0, train_set_limit)
-    op = a + (2*b) + (3*c)
+    op = a + (4*b) + (11*c)
     train_input.append([a, b, c])
     train_output.append(op)
 
